@@ -113,6 +113,7 @@ mtk_pd_charging.ko
 mtk_pep20.ko
 mtk_tran_tc30.ko
 mtk_tran_hvdcp20.ko
+tran_auto_test.ko
 mtk_charger_framework.ko
 tran_common_class.ko
 tran_temp_forecast.ko

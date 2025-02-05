@@ -116,6 +116,7 @@ mtk_pd_charging.ko
 mtk_pep20.ko
 mtk_tran_tc30.ko
 mtk_tran_hvdcp20.ko
+tran_auto_test.ko
 mtk_charger_framework.ko
 tran_common_class.ko
 tran_temp_forecast.ko
@@ -177,6 +178,7 @@ mtk_cm_mgr.ko
 mtk_cm_mgr_mt6768.ko
 mtk-smi-bwc.ko
 tran_rhi.ko
+tran_perf_util.ko
 transsion_tranlog.ko
 tkv.ko
 tkv_recovery.ko
