@@ -85,3 +85,22 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_PACKAGES += \
     mtk_plpath_utils \
     mtk_plpath_utils.recovery
+	
+# Keymaster
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@4.1
+
+# Additional Libraries
+TARGET_RECOVERY_DEVICE_MODULES += \
+    android.hardware.keymaster@4.1
+
+RECOVERY_LIBRARY_SOURCE_FILES += \
+    $(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.keymaster@4.1
+	
+# Keystore2
+PRODUCT_PACKAGES += \
+    android.system.keystore2
+	
+# Drm
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.4
